@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "starwars-through-spyglass"
 version = "0.1.0"
-description = ""
-authors = ["amalokin3 <amalokin@gmail.com>"]
+description = "CLI tool to get Star Wars planet info through the Star Wars API."
+authors = ["Alex Malokin <amalokin@gmail.com>"]
 readme = "README.md"
 packages = [{include = "starwars_through_spyglass"}]
 
@@ -11,7 +11,15 @@ python = "^3.11"
 requests = "^2.31.0"
 click = "^8.1.4"
 
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+starwars = "starwars_through_spyglass.main:cli"
+
+[build]
+script = "poetry build"
