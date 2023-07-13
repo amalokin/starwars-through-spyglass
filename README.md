@@ -8,7 +8,7 @@ This project is created to respond to technical assessment for the position of F
 Install the package by accessing Test Pypi with pip:
 
 ```bash
-pip install --index-url https://test.pypi.org/simple/ starwars-through-spyglass
+(pip install requests click && pip install --index-url https://test.pypi.org/simple/ starwars-through-spyglass)
 ```
 Tested with the following package versions:
 - python 3.10, 3.11
