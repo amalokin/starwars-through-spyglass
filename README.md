@@ -11,7 +11,7 @@ Install the package by accessing Test Pypi with pip:
 pip install --index-url https://test.pypi.org/simple/ starwars-through-spyglass
 ```
 Tested with the following package versions:
-- python 3.11.4
+- python 3.10, 3.11
 - requests 2.31.0
 - click 8.1.4
 

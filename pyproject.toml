@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "starwars-through-spyglass"
-version = "0.1.2"
+version = "0.1.3"
 description = "CLI tool to get Star Wars planet info through the Star Wars API."
 authors = ["Alex Malokin <amalokin@gmail.com>"]
 readme = "README.md"
